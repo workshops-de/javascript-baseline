@@ -1,5 +1,35 @@
 # JavaScript Hands-On
 
+<p align="center">
+  <img alt="workshops-de-logo-blue" src="docs/logo-workshops-de.png" width="120">
+  <br>
+  <em>The best way to get started with JavaScript for modern web frameworks</em>
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://workshops.de/" target="_blank"><strong>workshops.de</strong></a>
+  <br>
+</p>
+
+## Getting Started
+
+- Voraussetzungen: [Node (LTS)](https://nodejs.org) ist installiert.
+- Nur klonen (Es ist keine Installation von Abhängigkeiten erforderlich):
+
+```bash
+git clone https://github.com/workshops-de/javascript-baseline.git
+cd javascript-baseline
+```
+
+### JavaScript mit Node ausführen
+
+> Mit einem geöffneten Terminal im Verzeichnis `javascript-baseline` ...
+
+```bash
+node ./<lektion>/problem.js`
+```
+
 Kurz und prägnant: Dieses Repository enthält Lernmodule mit kurzen Übungen und Referenzlösungen.
 
 ## Lektionen
