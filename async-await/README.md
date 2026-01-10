@@ -172,31 +172,3 @@ async function run() {
   }
 }
 ```
-
-## Typische Anfängerfehler
-
-- await außerhalb von async verwenden
-- async-Funktionen aufrufen, aber das Promise nicht behandeln
-- mehrere await unnötig seriell ausführen
-- glauben, await blockiert JavaScript komplett
-
-## Übungsaufgabe (Beginner)
-
-Gegeben:
-Eine Funktion delay(ms), die ein Promise nach ms Millisekunden erfüllt.
-
-Aufgaben:
-
-1. Schreibe eine async-Funktion run(), die:
-   - "Start" loggt
-   - await delay(1000) ausführt
-   - danach "Ende" loggt
-2. Baue einen Fehlerfall ein:
-   - delay(ms) soll rejecten, wenn ms < 0
-   - fange den Fehler mit try / catch ab
-3. Ergänze ein finally, das immer "done" loggt
-
-Erwartung:
-
-- Bei ms = 1000: Start → (1s Pause) → Ende → done
-- Bei ms < 0: Fehler → done
