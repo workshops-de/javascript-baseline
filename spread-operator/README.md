@@ -11,7 +11,7 @@ Typische Einsatzbereiche:
 - Kopieren von Arrays und Objekten
 - Zusammenführen von Datenstrukturen
 - Erweitern bestehender Daten
-- Unterstützung von immutablem Code
+- Unterstützung von immutable Code
 
 ## Spread mit Arrays
 
