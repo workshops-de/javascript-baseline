@@ -1,6 +1,27 @@
 function getNumberAfter(ms, value) {
-  return new Promise((resolve, reject) => {});
+  const isNegativeValue = value < 0;
+
+  return new Promise((resolve, reject) => {
+    if (isNegativeValue)
+      return reject(`The value must be greater than 0, but was ${value}`);
+
+    setTimeout(() => resolve(value), ms);
+  });
 }
+
+getNumberAfter(200, 10)
+  .then(value => value * 2)
+  .then(value => value + 5)
+  .then(value => console.log(value))
+  .catch(reason => console.log(reason))
+  .finally(() => console.log('Done'));
+
+getNumberAfter(200, -1)
+  .then(value => value * 2)
+  .then(value => value + 5)
+  .then(value => console.log(value))
+  .catch(reason => console.log(reason))
+  .finally(() => console.log('Done'));
 
 /* TODO:
 
