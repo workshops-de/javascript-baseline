@@ -1,9 +1,21 @@
 async function run() {
-  await delay(1_000);
+  console.log('Start');
+  try {
+    await delay(1_000);
+    console.log('End');
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 function delay(ms) {
-  return new Promise((resolve, reject) => {});
+  const isNegative = ms < 0;
+
+  return new Promise((resolve, reject) => {
+    return isNegative
+      ? reject(`ms needs to be greater than 0 but was ${ms}`)
+      : setTimeout(() => resolve(true), ms);
+  });
 }
 
 run();
