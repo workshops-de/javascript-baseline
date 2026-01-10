@@ -8,12 +8,7 @@ function delay(ms) {
 
 run();
 
-/* TODO: Übungsaufgabe (aus README.md)
-
-Gegeben:
-Eine Funktion delay(ms), die ein Promise nach ms Millisekunden erfüllt.
-
-Aufgaben:
+/* TODO:
 
 1. Schreibe eine async-Funktion run(), die:
    - "Start" loggt
