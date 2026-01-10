@@ -1,7 +1,7 @@
 # JavaScript Baseline
 
 <p align="center">
-  <img alt="workshops-de-logo-blue" src="docs/logo-workshops-de.png" width="120">
+  <img alt="workshops-de-logo-blue" src=".docs/logo-workshops-de.png" width="120">
   <br>
   <em>The best way to get started with JavaScript for modern web frameworks</em>
   <br>
