@@ -1,7 +1,5 @@
 # Spread Operator (`...`) in JavaScript
 
-# Spread Operator (`...`) in JavaScript
-
 ## Was ist der Spread Operator?
 
 Der **Spread Operator** (`...`) wird in JavaScript verwendet, um Arrays, Objekte oder andere iterierbare Strukturen **aufzubrechen** und ihre Werte **einzeln weiterzugeben**.
